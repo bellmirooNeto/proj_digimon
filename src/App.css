@@ -1,9 +1,22 @@
 img{
     width:150px;
 }
+h1, input{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 255px ;
+}
 div div{
     display: grid;
     grid-template-columns: 200px 200px 200px 200px 200px 200px;
-    grid-template-rows: 250px ;
+    grid-template-rows: 255px ;
     padding-left: 50px; 
+   
+}
+* {
+     background-color: cadetblue;
+}
+input {
+    width: 150px;
+    height: 30px;
 }
